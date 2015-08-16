@@ -49,5 +49,5 @@ public:
 
 protected:
     Type m_var;
-    std::array<Type, 0> m_array;
+    std::array<Type, 3> m_array;
 };

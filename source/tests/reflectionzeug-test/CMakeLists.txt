@@ -38,6 +38,16 @@ set(libs
 
 set(sources
     main.cpp
+    propertyFunctionalityTests/PropertyArray_test.cpp
+    propertyFunctionalityTests/PropertyBool_test.cpp
+    propertyFunctionalityTests/PropertyColor_test.cpp
+    propertyFunctionalityTests/PropertyEnum_test.cpp
+    propertyFunctionalityTests/PropertyFilePath_test.cpp
+    propertyFunctionalityTests/PropertyFloatingPoint_test.cpp
+    propertyFunctionalityTests/PropertyString_test.cpp
+    propertyFunctionalityTests/PropertySignedIntegral_test.cpp
+    propertyFunctionalityTests/PropertyUnsignedIntegral_test.cpp
+    propertyFunctionalityTests/Property_test.cpp
     # Color_test.cpp
 )
 
